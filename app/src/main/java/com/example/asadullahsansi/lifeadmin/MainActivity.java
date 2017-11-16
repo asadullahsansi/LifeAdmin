@@ -11,12 +11,6 @@ import android.view.View;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-/**
- * Created by asadullahsansi on 11/9/17.
- */
-
-
-
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
