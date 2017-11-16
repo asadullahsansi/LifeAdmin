@@ -12,11 +12,10 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 
-
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private FirebaseAuth _auth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
