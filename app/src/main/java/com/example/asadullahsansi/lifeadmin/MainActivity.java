@@ -11,18 +11,10 @@ import android.view.View;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-/**
- * Created by asadullahsansi on 11/9/17.
- */
-
-
-
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private FirebaseAuth _auth;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +22,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         _auth = FirebaseAuth.getInstance();
-
         findViewById(R.id.btnAddCategory).setOnClickListener(this);
         findViewById(R.id.btnAddSubCategory).setOnClickListener(this);
         findViewById(R.id.btnAddItem).setOnClickListener(this);
