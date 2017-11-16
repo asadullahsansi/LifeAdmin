@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Life Admin</string>
+
+
+    <string name="err_msg_email">Enter Valid Email</string>
+    <string name="err_msg_password">Enter the password (At Least 6 Character)</string>
+    <string name="err_msg_key">Enter valid Key</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+</resources>
