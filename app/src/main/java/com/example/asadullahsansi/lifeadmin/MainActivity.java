@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         _auth = FirebaseAuth.getInstance();
+
         findViewById(R.id.btnAddCategory).setOnClickListener(this);
         findViewById(R.id.btnAddSubCategory).setOnClickListener(this);
         findViewById(R.id.btnAddItem).setOnClickListener(this);
