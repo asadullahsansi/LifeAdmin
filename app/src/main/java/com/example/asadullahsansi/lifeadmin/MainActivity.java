@@ -12,6 +12,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 
+
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private FirebaseAuth _auth;
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         _auth = FirebaseAuth.getInstance();
-
+   // this is testing
         findViewById(R.id.btnAddCategory).setOnClickListener(this);
         findViewById(R.id.btnAddSubCategory).setOnClickListener(this);
         findViewById(R.id.btnAddItem).setOnClickListener(this);
